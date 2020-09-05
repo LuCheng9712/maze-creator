@@ -1,0 +1,40 @@
+@import "styles";
+
+
+.pf_cell {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: white;
+  border: 0.5px solid lightgrey;
+  padding: 0;
+  margin: 0;
+}
+
+.pf_cell_unselected:hover {
+  background: gray;
+}
+
+.pf_cell_origin, .pf_cell_target {
+  background: black;
+}
+
+.pf_cell_target:hover, .pf_cell_origin:hover {
+  background: gray;
+}
+
+.pf_cell_path {
+  background: pink;
+}
+
+.pf_row {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.pf_grid {
+  margin-top: 50px;
+  display: inline-block;
+  border: 0.5px solid lightgrey;
+}
